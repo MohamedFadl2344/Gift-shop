@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!--============================ Meta Tags ============================ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="WebPros">
+    <!-- ============================== Favicon ============================ -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/gift-box.png"
+      type="image/x-icon"
+    />
+
+    <!-- ============================= Bootstrap CSS ======================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/bootstrap-5/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/bootstrap-5/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-icons-1/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-icons-1/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ============================ file CSS ============================= -->
+    <link rel="stylesheet" href="assets/css_style/style.css" />
+
+    <!-- ================================ title ==========================-->
+    <title> Product management </title>
+    <!-- ================================================================ -->
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-bg-info" dir="rtl">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="why.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">منتجات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">تسجيل دخول</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="بحث"
+              aria-label="Search"
+              id="searchInput"
+              dir="rtl"
+            />
+            <button
+              class="btn btn-outline-success me-2 btn-reverse-text"
+              type="submit"
+            >
+              بحث
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="sidebar-heading border-bottom bg-dark p-3">لوحة التحكم</div>
+        <div class="list-group list-group-flush">
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="Add_product.html"
+            >اضافة منتج</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="Product management.html"
+          >
+            <span style="display: inline-block; white-space: nowrap">
+              إدارة المنتجات
+            </span>
+          </a>
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="Add_admin.html"
+            >اضافة ادمن</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="Order management.html"
+            >إدارة الطلبات</a
+          >
+          <a
+          class="list-group-item list-group-item-action list-group-item-light 
+          p-3"
+          href="Edit_product.html"
+          > تعديل منتج</a
+        >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="Profile personly.html"
+          >
+            <span style="display: inline-block; white-space: nowrap">
+              الملف الشخصي
+            </span>
+          </a>
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3 text-center"
+            href="dashboard.html "
+            id="improt"
+          >
+            <span style="display: inline-block; white-space: nowrap">
+              رجوع
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="container m-4">
+        <h1 class="text-center mt-4" id="product">قائمة المنتجات</h1>
+        <div class="row card-container">
+          <!-- ==================== بداية عرض المنتجات ======================-->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p1.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p2.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p3.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p4.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p5.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="assets/images/p6.png"
+                class="card-img-top"
+                alt="صورة المنتج"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">اسم المنتج</h5>
+                <p class="card-text">السعر: $99.99</p>
+                <a href="Edit_product.html" class="btn btn-primary">تعديل</a>
+                <a href="#" class="btn btn-danger">حذف</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =============== زر إظهار/إخفاء القائمة الجانبية ================ -->
+    <button id="toggleSidebar" class="btn">إظهار/إخفاء القائمة</button>
+
+    <!-- =====================  footer start here========================== -->
+    
+    <footer class="footer_section fixed-bottom mt-auto py-3" dir="ltr">
+      <section class="container_social">
+        <div class="container_social2">
+          <h3>تابعنا على وسائل التواصل الاجتماعي</h3>
+          <div class="social_icon">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-skype"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <p class="text-right">&copy; giftshop.com | جميع الحقوق محفوظة لد</p>
+      </div>
+    </footer>
+    <!-- Bootstrap js -->
+    <script src="assets/bootstrap-5/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap-5/js/jQuery v3.7.1.js"></script>
+    <script src="assets/bootstrap-5/js/popperjscore v2.11.8.js"></script>
+    <script src="assets/js_style/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/langdetect"></script>
+  </body>
+</html>

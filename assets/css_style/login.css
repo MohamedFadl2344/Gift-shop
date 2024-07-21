@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    background-color: rgb(225, 230, 240);
+    z-index: 99999;
+    color: #000;
+  }
+  .navbar-nav{
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .navbar-nav li {
+    margin-right: 10px; 
+  }
+  .navbar-nav a:hover {
+    color: #0064C8 !important;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    color: #db4f66;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn .btn-outline-success {
+    color: aliceblue;
+    background-color: cadetblue;
+  }
+  
+  .content {
+    flex: 1;
+    position: fixed;
+    bottom: 100px;
+  }
+  
+  /* ============================= login and signup ========================= */
+   .login-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 70vh;
+     margin-bottom: 30px;
+   }
+   .card-body{
+    background-color: #FCF8FF;
+   }
+
+   #singup{
+    background-color:rgb(0, 128, 0) ;
+    color: #fcf8ff;
+   }
+   #singup:hover{
+    background-color:rgb(0, 100, 200) ;
+    color: #fcf8ff;
+   }
+   
+   #logoin{
+    background-color:rgb(0, 100, 200) ;
+    color: #fcf8ff;
+   }
+   
+   #logoin:hover{
+    background-color:rgb(0, 128, 0) ;
+    color: #fcf8ff;
+   }
+      
+   .card {
+    margin-bottom: 20px;
+   }
+  .form-group {
+    text-align: right;
+  }
+  .form-group label {
+    direction: rtl;
+  }
+  .card-body {
+    text-align: right;
+  }
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .input-group {
+    direction: rtl;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  .footer_section {
+    position: relative;
+    background-color: #fcf8ff;
+    color: #fff;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 500;
+  }
+  
+  .container_social {
+    font-size: 23px;
+  }
+  
+  .container_social .social_icon a i {
+    margin-right: 20px;
+    color: rgb(0, 100, 200);
+  }
+  
+  .container_social .social_icon a i:hover {
+    color: #009efa;
+  }
+  
+  .footer_section p {
+    font-size: 18px;
+    color: #0064C8;
+  }
+  
+  .container_social2 {
+    margin-top: 10px;
+  }
+  
+  .container_social2 h3{
+    color: #0064C8;
+    font-size: 18px;
+  }
+  
+  
